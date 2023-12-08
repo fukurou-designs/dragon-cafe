@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	background:url(../images/common_content_bg2.png) 10px 550px no-repeat,
+		url(../images/other_container_bg.jpg) left top repeat-y;
+	width: 850px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+#navi {
+	width: 200px;
+	float: left;
+}
+#navi ul {
+	width: 150px;
+	margin-top: 70px;
+	margin-left: auto;
+}
+#navi ul li {
+	height: 50px;
+	width: 150px;
+	margin-bottom: 15px;
+}
+#navi ul li a {
+	display: block;
+	height: 50px;
+	width: 150px;
+	background-image: url(../images/other_navi.gif);
+	text-indent: -9999px;
+	overflow: hidden;
+}
+#navi ul #home a:hover {
+	background-position: -150px 0px;
+}
+
+#navi ul #drink a {
+	background-position: 0px -50px;
+}
+#navi ul #drink a:hover {
+	background-position: -150px -50px;
+}
+
+#navi ul #food a {
+	background-position: 0px -100px;
+}
+#navi ul #food a:hover {
+	background-position: -150px -100px;
+}
+
+#navi ul #goods a{
+	background-position: 0px -150px;
+}
+#navi ul #goods a:hover {
+	background-position: -150px -150px;
+}
+#navi ul #point a {
+	background-position: 0px -200px;
+}
+#navi ul #point a:hover {
+	background-position: -150px -200px;
+}
+
+
+
+#navi p a #siteID {
+	margin-top: 10px;
+	margin-left: 27px;
+}
+#content {
+	width: 650px;
+	float: right;
+}
+#content h1 {
+	height: 300px;
+	width: 650px;
+	background-color: #CCC;
+	margin-bottom: 15px;
+	text-indent: -9999px;
+}
+
+#footer {
+	clear: both;
+}

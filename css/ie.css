@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container {
+	background-image: url(../images/other_container_bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center top;
+}

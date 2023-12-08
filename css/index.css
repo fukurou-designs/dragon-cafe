@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+#container {
+	background-image: url(../images/index_container_bg.jpg);
+	background-repeat: repeat-y;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 850px;
+}
+#header {
+	background-image: url(../images/index_main.jpg);
+	background-repeat: no-repeat;
+	height: 350px;
+	width: 850px;
+	color: #FFF;
+	position: relative;
+}
+#header #siteID {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#header #tagline {
+	text-indent: -9999px;
+}
+#header ul {
+	height: 60px;
+	width: 850px;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+#header ul li {
+	height: 60px;
+	width: 170px;
+	margin-bottom: 1px;
+	float: left;
+}
+#header ul li a {
+	display: block;
+	height: 60px;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/index_navi.gif);
+	text-indent: -9999px;
+	overflow: hidden;
+}
+#header ul .nonActive a {
+	height: 45px;
+	margin-top: 15px;
+}
+#header ul .nonActive a:hover {
+	height: 60px;
+	margin-top: 0px;
+}
+#header ul #drink a {
+	background-position: -150px 0px;
+}
+#header ul #food a {
+	background-position: -300px 0px;
+}
+#header ul #goods a {
+	background-position: -450px 0px;
+}
+#header ul #point a {
+	background-position: -600px 0px;
+}
+#content {
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#content .subbox {
+	border: 3px solid #420;
+	width: 294px;
+	padding-bottom: 20px;
+	-moz-border-radius:10px;/*Firefox*/
+	-webkit-border-radius:10px;/*safari、chrome*/
+	border-radius:10px;/*CSS3の正式記述*/
+	background: -webkit-gradient(linear,left top, left bottom, from(rgba(165,125,65,0.5)),to(rgba(80,30,5,0.5)));/*半透明のグラデーション指定*/
+	background: -moz-linear-gradient(top,rgba(165,125,65,0.5),rgba(80,30,5,0.5));/*Firefox*/
+	background: -webkit-gradient(linear,left top, left bottom, from(rgba(165,125,65,0.5)),to(rgba(80,30,5,0.5)));/*safari、chrome*/
+	background: linear-gradient(top,rgba(165,125,65,0.5),rgba(80,30,5,0.5));/*CSS3正式*/
+}
+#content .subbox p {
+	font-size: 87.5%;
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 1.5;
+}
+
+
+#content #column1 {
+	float: left;
+	width: 315px;
+}
+#content #column1 .subbox {
+	margin-left: auto;
+}
+#content #column1 #subbox1 {
+	margin-bottom: 10px;
+}
+#content #column1 #subbox1 dl {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#content #column1 #subbox1 dl dt {
+	float: left;
+	width: 5em;
+	clear: left;
+	font-size: 87.5%;
+}
+#content #column1 #subbox1 dl dd {
+	margin-left: 5em;
+	font-size: 87.5%;
+}
+#content #column1 #subbox2 #pointcardImg {
+	text-align: center;
+	margin-bottom: 15px;
+}
+#content #column1 #subbox2 #linktoPointcard {
+	text-align: right;
+	margin-top: 10px;
+}
+#content #column1 #subbox2 #linktoPointcard a {
+	color: #000;
+}
+
+
+
+#content #column2 {
+	width: 320px;
+	float: left;
+}
+#content #column2 .subbox {
+	margin-right: auto;
+	margin-left: auto;
+}
+#content #column3 {
+	float: left;
+	width: 215px;
+}
+#content #column3 ul li #bannerL {
+	margin-bottom: 10px;
+}
